@@ -1,0 +1,97 @@
+body {
+    background: #0b041b;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    color: rgb(125, 211, 252); 
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 50px;
+    color: rgb(203, 213, 241);
+
+}
+
+.diffs-title {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 60vw;
+    min-width: 300px;
+    color: rgb(203, 213, 241);
+    font-family: 'Sarabun', sans-serif;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sequence-boxes {
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.sequence-box {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.submit {
+    background-color: rgb(106, 201, 245); 
+    border: none;
+    color: rgb(233, 239, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  
+  .diffs-title {
+      margin-top: 50px;
+      margin-bottom: 0px;
+      font-family: 'Sarabun', sans-serif;
+  }
+
+  .diffs{
+    font-family: 'Sarabun', sans-serif;
+  }
+
+  .label{
+      margin-bottom: 5px;
+      font-family: 'Sarabun', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  textarea {
+    background-color: rgb(213, 224, 253);
+    padding: 20px;
+    border-radius: 4px;
+  }
+ 
